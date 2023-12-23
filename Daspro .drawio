@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-12-23T12:28:58.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="sx8TDkyMP-kSsCE5-wpO" version="22.1.11" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1001" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Football Tickets" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="630" y="430" width="400" height="240" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="+ Main" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0.008;exitY=1.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8.526512829121202e-14" y="51.666000000000025" as="sourcePoint" />
+            <mxPoint x="160" y="51.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="- private static String getPertandinganByPilihan(String pilihan)&#xa;&#xa;&#xa;&#xa;&#xa;- private static String getKategoriByPilihan(String pilihan)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;spacing=11;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="52" width="400" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Pemesanan Tiket" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="640" y="1170" width="400" height="236" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-14" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ String&amp;nbsp;Pertandingan&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int Kategori Tiket&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int&amp;nbsp;Jumlah&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int&amp;nbsp;Harga&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Int Total Harga&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+          <mxGeometry y="26" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-16" value="- public void tambahTiket(TiketSepakBola tiket)&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp;public void tampilkanPemesanan()&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp;public int hitungTotalHargaPemesanan()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+          <mxGeometry y="156" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
+          <mxGeometry y="236" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-21" value="Tampilan Pemesanan" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="780" width="400" height="236" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-22" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ String&amp;nbsp;Pertandingan&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int Kategori Tiket&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="H98Xdf9Eu2yJbi8YoaBB-21">
+          <mxGeometry y="26" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-23" value="-&amp;nbsp;public static void tampilkanDaftarPertandingan()&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp;public static void tampilkanDaftarKategoriTiket()&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;- public static int getHargaKategoriTiket(String kategori)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="H98Xdf9Eu2yJbi8YoaBB-21">
+          <mxGeometry y="156" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H98Xdf9Eu2yJbi8YoaBB-21">
+          <mxGeometry y="236" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-26" value="Tampilan Pemesanan" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="1590" width="390" height="236" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-27" value="+ String name :&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ String&amp;nbsp;Pertandingan&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int Kategori&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int&amp;nbsp;Jumlah&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;+ Int&amp;nbsp;Harga&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="H98Xdf9Eu2yJbi8YoaBB-26">
+          <mxGeometry y="26" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-28" value="-&amp;nbsp;public String getPertandingan()&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;-&amp;nbsp;public String getKategori()&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;-&amp;nbsp;public int getJumlah()&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;-&amp;nbsp;public int getHarga()&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;-&amp;nbsp;public int hitungTotalHarga()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="H98Xdf9Eu2yJbi8YoaBB-26">
+          <mxGeometry y="156" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H98Xdf9Eu2yJbi8YoaBB-26">
+          <mxGeometry y="236" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.007;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="537.2719999999999" as="sourcePoint" />
+            <mxPoint x="620" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="537" />
+              <mxPoint x="450" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="900" as="sourcePoint" />
+            <mxPoint x="1050" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1250" y="900" />
+              <mxPoint x="1250" y="1300" />
+              <mxPoint x="1130" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H98Xdf9Eu2yJbi8YoaBB-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1300" as="sourcePoint" />
+            <mxPoint x="640" y="1739" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="501" y="1300" />
+              <mxPoint x="501" y="1739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
